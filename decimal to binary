@@ -1,0 +1,6 @@
+a=5
+ans=" "
+while a:
+    ans=str(a&1)+ans
+    a=a>>1
+print(ans)

@@ -1,0 +1,6 @@
+n=13
+i=2
+mask=1<<i
+mask=~mask
+res=n&mask
+print(res)

@@ -1,0 +1,6 @@
+n=23
+i=3
+mask=~0
+mask=mask<<i
+res=n& mask
+print(res)
